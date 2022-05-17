@@ -1,0 +1,32 @@
+C:\Users\russell\Downloads\ColorSelectSource\CustomUIControls\bin\Debug\CustomUIControls.dll
+C:\Users\russell\Downloads\ColorSelectSource\CustomUIControls\bin\Debug\CustomUIControls.pdb
+C:\Users\russell\Downloads\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.ArrowButton.resources
+C:\Users\russell\Downloads\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.ColorSelectControl.resources
+C:\Users\russell\Downloads\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.TextStylePicker.resources
+C:\Users\russell\Downloads\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.TextStyleSelectDialog.resources
+C:\Users\russell\Downloads\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.csproj.GenerateResource.cache
+C:\Users\russell\Downloads\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.csproj.CoreCompileInputs.cache
+C:\Users\russell\Downloads\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.dll
+C:\Users\russell\Downloads\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.pdb
+C:\Users\russell\Downloads\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.csprojAssemblyReference.cache
+C:\MY DOCUMENTS\source\repos\ColorSelectSource\CustomUIControls\bin\Debug\CustomUIControls.dll
+C:\MY DOCUMENTS\source\repos\ColorSelectSource\CustomUIControls\bin\Debug\CustomUIControls.pdb
+C:\MY DOCUMENTS\source\repos\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.ArrowButton.resources
+C:\MY DOCUMENTS\source\repos\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.ColorSelectControl.resources
+C:\MY DOCUMENTS\source\repos\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.TextStylePicker.resources
+C:\MY DOCUMENTS\source\repos\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.TextStyleSelectDialog.resources
+C:\MY DOCUMENTS\source\repos\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.csproj.GenerateResource.cache
+C:\MY DOCUMENTS\source\repos\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.csproj.CoreCompileInputs.cache
+C:\MY DOCUMENTS\source\repos\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.dll
+C:\MY DOCUMENTS\source\repos\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.pdb
+C:\MY DOCUMENTS\source\repos\ColorSelectSource\CustomUIControls\obj\Debug\CustomUIControls.csprojAssemblyReference.cache
+C:\Users\coker\source\repos\ColourSelectionApplication\CustomUIControls\bin\Debug\CustomUIControls.dll
+C:\Users\coker\source\repos\ColourSelectionApplication\CustomUIControls\bin\Debug\CustomUIControls.pdb
+C:\Users\coker\source\repos\ColourSelectionApplication\CustomUIControls\obj\Debug\CustomUIControls.ArrowButton.resources
+C:\Users\coker\source\repos\ColourSelectionApplication\CustomUIControls\obj\Debug\CustomUIControls.ColorSelectControl.resources
+C:\Users\coker\source\repos\ColourSelectionApplication\CustomUIControls\obj\Debug\CustomUIControls.TextStylePicker.resources
+C:\Users\coker\source\repos\ColourSelectionApplication\CustomUIControls\obj\Debug\CustomUIControls.TextStyleSelectDialog.resources
+C:\Users\coker\source\repos\ColourSelectionApplication\CustomUIControls\obj\Debug\CustomUIControls.csproj.GenerateResource.cache
+C:\Users\coker\source\repos\ColourSelectionApplication\CustomUIControls\obj\Debug\CustomUIControls.csproj.CoreCompileInputs.cache
+C:\Users\coker\source\repos\ColourSelectionApplication\CustomUIControls\obj\Debug\CustomUIControls.dll
+C:\Users\coker\source\repos\ColourSelectionApplication\CustomUIControls\obj\Debug\CustomUIControls.pdb
