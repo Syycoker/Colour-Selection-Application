@@ -466,7 +466,7 @@ namespace ColourSelectionApplication
       lines.Add($"#define { name }_{ dimensionsString }_WIDTH { x }");
       lines.Add($"#define { name }_{ dimensionsString }_HEIGHT { y } \r\n");
 
-      lines.Add($"const RGB[] { name }_{ dimensionsString }[{ x * y }] = \n{{");
+      lines.Add($"const RGB_OBJ { name }_{ dimensionsString }[{ x * y }] = \n{{");
 
       for (int col = 0; col < y; col++)
       {

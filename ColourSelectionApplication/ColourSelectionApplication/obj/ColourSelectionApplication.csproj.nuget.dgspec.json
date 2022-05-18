@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\coker\\Documents\\ColourSelectionApplication (2)\\ColourSelectionApplication\\ColourSelectionApplication\\ColourSelectionApplication.csproj": {}
+    "C:\\Users\\coker\\Documents\\GitHub\\Colour-Selection-Application\\ColourSelectionApplication\\ColourSelectionApplication\\ColourSelectionApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\coker\\Documents\\ColourSelectionApplication (2)\\ColourSelectionApplication\\ColourSelectionApplication\\ColourSelectionApplication.csproj": {
+    "C:\\Users\\coker\\Documents\\GitHub\\Colour-Selection-Application\\ColourSelectionApplication\\ColourSelectionApplication\\ColourSelectionApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\coker\\Documents\\ColourSelectionApplication (2)\\ColourSelectionApplication\\ColourSelectionApplication\\ColourSelectionApplication.csproj",
+        "projectUniqueName": "C:\\Users\\coker\\Documents\\GitHub\\Colour-Selection-Application\\ColourSelectionApplication\\ColourSelectionApplication\\ColourSelectionApplication.csproj",
         "projectName": "ColourSelectionApplication",
-        "projectPath": "C:\\Users\\coker\\Documents\\ColourSelectionApplication (2)\\ColourSelectionApplication\\ColourSelectionApplication\\ColourSelectionApplication.csproj",
+        "projectPath": "C:\\Users\\coker\\Documents\\GitHub\\Colour-Selection-Application\\ColourSelectionApplication\\ColourSelectionApplication\\ColourSelectionApplication.csproj",
         "packagesPath": "C:\\Users\\coker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\coker\\Documents\\ColourSelectionApplication (2)\\ColourSelectionApplication\\ColourSelectionApplication\\obj\\",
+        "outputPath": "C:\\Users\\coker\\Documents\\GitHub\\Colour-Selection-Application\\ColourSelectionApplication\\ColourSelectionApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,8 +35,8 @@
           "net48": {
             "targetAlias": "net4.8",
             "projectReferences": {
-              "C:\\Users\\coker\\Documents\\ColourSelectionApplication (2)\\ColourSelectionApplication\\CustomUIControls\\CustomUIControls.csproj": {
-                "projectPath": "C:\\Users\\coker\\Documents\\ColourSelectionApplication (2)\\ColourSelectionApplication\\CustomUIControls\\CustomUIControls.csproj"
+              "C:\\Users\\coker\\Documents\\GitHub\\Colour-Selection-Application\\ColourSelectionApplication\\CustomUIControls\\CustomUIControls.csproj": {
+                "projectPath": "C:\\Users\\coker\\Documents\\GitHub\\Colour-Selection-Application\\ColourSelectionApplication\\CustomUIControls\\CustomUIControls.csproj"
               }
             }
           }
@@ -65,11 +65,11 @@
         }
       }
     },
-    "C:\\Users\\coker\\Documents\\ColourSelectionApplication (2)\\ColourSelectionApplication\\CustomUIControls\\CustomUIControls.csproj": {
+    "C:\\Users\\coker\\Documents\\GitHub\\Colour-Selection-Application\\ColourSelectionApplication\\CustomUIControls\\CustomUIControls.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\coker\\Documents\\ColourSelectionApplication (2)\\ColourSelectionApplication\\CustomUIControls\\CustomUIControls.csproj",
+        "projectUniqueName": "C:\\Users\\coker\\Documents\\GitHub\\Colour-Selection-Application\\ColourSelectionApplication\\CustomUIControls\\CustomUIControls.csproj",
         "projectName": "CustomUIControls",
-        "projectPath": "C:\\Users\\coker\\Documents\\ColourSelectionApplication (2)\\ColourSelectionApplication\\CustomUIControls\\CustomUIControls.csproj",
+        "projectPath": "C:\\Users\\coker\\Documents\\GitHub\\Colour-Selection-Application\\ColourSelectionApplication\\CustomUIControls\\CustomUIControls.csproj",
         "frameworks": {
           "net40": {
             "projectReferences": {}
