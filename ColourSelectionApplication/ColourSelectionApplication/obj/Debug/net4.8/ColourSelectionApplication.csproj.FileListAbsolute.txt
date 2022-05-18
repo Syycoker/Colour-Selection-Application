@@ -1,0 +1,16 @@
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\bin\Debug\net4.8\ColourSelectionApplication.exe.config
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\bin\Debug\net4.8\ColourSelectionApplication.exe
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\bin\Debug\net4.8\ColourSelectionApplication.pdb
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\bin\Debug\net4.8\Newtonsoft.Json.dll
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\bin\Debug\net4.8\CustomUIControls.dll
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\bin\Debug\net4.8\CustomUIControls.pdb
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\obj\Debug\net4.8\ColourSelectionApplication.csproj.AssemblyReference.cache
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\obj\Debug\net4.8\ColourSelectionApplication.ColourForm.resources
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\obj\Debug\net4.8\ColourSelectionApplication.csproj.GenerateResource.cache
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\obj\Debug\net4.8\ColourSelectionApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\obj\Debug\net4.8\ColourSelectionApplication.AssemblyInfoInputs.cache
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\obj\Debug\net4.8\ColourSelectionApplication.AssemblyInfo.cs
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\obj\Debug\net4.8\ColourSelectionApplication.csproj.CoreCompileInputs.cache
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\obj\Debug\net4.8\ColourSelectionApplication.csproj.CopyComplete
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\obj\Debug\net4.8\ColourSelectionApplication.exe
+C:\Users\coker\Documents\GitHub\Colour-Selection-Application\ColourSelectionApplication\ColourSelectionApplication\obj\Debug\net4.8\ColourSelectionApplication.pdb

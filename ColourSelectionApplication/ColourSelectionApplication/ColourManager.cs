@@ -1,12 +1,10 @@
 ﻿using ColorSelectDemo;
 using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
-using System.Windows.Forms;
 
 namespace ColourSelectionApplication
 {
@@ -35,6 +33,31 @@ namespace ColourSelectionApplication
     /// The name of the directory for the .c colour files.
     /// </summary>
     public const string PRESET_COLOURS_FILE_NAME = "presetcolours";
+
+    /// <summary>
+    /// The index of the width.
+    /// </summary>
+    private const int WIDTH_INDEX = 0;
+
+    /// <summary>
+    /// The index of the height.
+    /// </summary>
+    private const int HEIGHT_INDEX = 1;
+
+    /// <summary>
+    /// The index of the red colour.
+    /// </summary>
+    private const int RED_INDEX = 0;
+
+    /// <summary>
+    /// The index of the green colour.
+    /// </summary>
+    private const int GREEN_INDEX = 1;
+
+    /// <summary>
+    /// The index of the blue colour.
+    /// </summary>
+    private const int BLUE_INDEX = 2;
     #endregion
     #region Delegates / Callbacks
     /// <summary>
@@ -228,9 +251,9 @@ namespace ColourSelectionApplication
       string[] rgb = line.Replace("{", string.Empty).Replace("}", string.Empty).Split(',');
 
       // Parse the colour
-      int r = int.Parse(rgb[0]);
-      int g = int.Parse(rgb[1]);
-      int b = int.Parse(rgb[2]);
+      int r = int.Parse(rgb[RED_INDEX]);
+      int g = int.Parse(rgb[GREEN_INDEX]);
+      int b = int.Parse(rgb[BLUE_INDEX]);
 
       Color colour = Color.FromArgb(r, g, b);
 
@@ -264,8 +287,8 @@ namespace ColourSelectionApplication
 
       if (gridColours is null) return;
 
-      int row = gridColours.GetLength(0);
-      int col = gridColours.GetLength(0);
+      int row = gridColours.GetLength(WIDTH_INDEX);
+      int col = gridColours.GetLength(HEIGHT_INDEX);
 
       Color[,] rotatedGridColours = new Color[row, col];
 
@@ -350,7 +373,7 @@ namespace ColourSelectionApplication
       string returnString = "{" + string.Join(",", entries) + "}";
       returnString = returnString.JsonPrettify();
 
-      File.WriteAllLines(Preset_Path, new string[1] { returnString });
+      File.WriteAllLines(Preset_Path, new string[] { returnString });
     }
     #endregion
     #region Private
@@ -389,20 +412,20 @@ namespace ColourSelectionApplication
       // Get rid of the tab escape in the first instance
       rgbValues[0] = rgbValues[0].Replace("\t", string.Empty);
 
-      Color[,] colours = new Color[dimensions[0], dimensions[1]];
+      Color[,] colours = new Color[dimensions[WIDTH_INDEX], dimensions[HEIGHT_INDEX]];
 
       int index = 0;
 
-      for (int y = 0; y < dimensions[1]; y++)
+      for (int y = 0; y < dimensions[HEIGHT_INDEX]; y++)
       {
-        for (int x = 0; x < dimensions[0]; x++)
+        for (int x = 0; x < dimensions[WIDTH_INDEX]; x++)
         {
           colours[x, y] = GetColour(rgbValues[index++]);
         }
       }
 
       // Now we have all the colours set and represented in the colurs array, now render the grid.
-      return CreateGrid(dimensions[0], dimensions[1], colours);
+      return CreateGrid(dimensions[WIDTH_INDEX], dimensions[HEIGHT_INDEX], colours);
     }
 
     /// <summary>
@@ -436,9 +459,9 @@ namespace ColourSelectionApplication
         {
           Color panelColour = Grid.Grid[row, col].BackColor;
 
-          rgb[row, col, 0] = panelColour.R;
-          rgb[row, col, 1] = panelColour.G;
-          rgb[row, col, 2] = panelColour.B;
+          rgb[row, col, RED_INDEX] = panelColour.R;
+          rgb[row, col, GREEN_INDEX] = panelColour.G;
+          rgb[row, col, BLUE_INDEX] = panelColour.B;
         }
       }
 
@@ -456,8 +479,8 @@ namespace ColourSelectionApplication
       int[,,] grid = ConvertGridToArray(gridPanel);
 
       // Get the dimensions of the grid proposed.
-      int x = grid.GetLength(0);
-      int y = grid.GetLength(1);
+      int x = grid.GetLength(WIDTH_INDEX);
+      int y = grid.GetLength(HEIGHT_INDEX);
 
       string dimensionsString = $"{ x }x{ y }";
 
@@ -472,14 +495,13 @@ namespace ColourSelectionApplication
       {
         for (int row = 0; row < x; row++)
         {
-          string r = string.Format("{0, 4}", grid[row, col, 0]);
-          string g = string.Format("{0, 4}", grid[row, col, 1]);
-          string b = string.Format("{0, 4}", grid[row, col, 2]);
+          string r = string.Format("{0, 4}", grid[row, col, RED_INDEX]);
+          string g = string.Format("{0, 4}", grid[row, col, GREEN_INDEX]);
+          string b = string.Format("{0, 4}", grid[row, col, BLUE_INDEX]);
 
-          if (row % x == 0)
-            lines.Add($"\t{{{r},{g},{b}}},");
-          else
-            lines[lines.Count - 1] += $" {{{r},{g},{b}}},";
+          if (row % x == 0) lines.Add($"\t{{{r},{g},{b}}},");
+          else lines[lines.Count - 1] += $" {{{r},{g},{b}}},";
+
         }
       }
 
